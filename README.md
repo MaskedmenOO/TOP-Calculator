@@ -6,6 +6,8 @@
 
 <h4>Also, there was a part where the string wasn't being sliced. I found out later that it was because the string had become a number and obviously now it couldn't be sliced.</h4>
 
+<h4>It's also not possible to typed in negative numbers. To get an answer that is negative is possible but to type in -4 for example cannot be done.</h4>
+
 <h4>The code is like super messy and many repititive parts. Anyway I just wanna move on to the next courses. </h4>
 
 https://maskedmenoo.github.io/TOP-Calculator/
