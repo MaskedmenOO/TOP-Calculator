@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="display">
+
+    </div>
+
+<div id="largestContainer">
+    <div id="bigContainerOne">
+
+        <div class="container">
+    
+            <button id="&#9003;">&#9003;</button>
+            <button id="()">()</button>
+            <button id="%">%</button>
+    
+        </div>
+
+        <div class="container">
+
+            <button id="7" onClick="buttonClicked(this.id)">7</button>
+            <button id="8" onClick="buttonClicked(this.id)">8</button>
+            <button id="9" onClick="buttonClicked(this.id)">9</button>
+    
+        </div>
+       
+        <div class="container">
+    
+            <button id="4" onClick="buttonClicked(this.id)">4</button>
+            <button id="5" onClick="buttonClicked(this.id)">5</button>
+            <button id="6" onClick="buttonClicked(this.id)">6</button>
+    
+        </div>
+       
+        <div class="container">
+    
+            <button id="1" onClick="buttonClicked(this.id)">1</button>
+            <button id="2" onClick="buttonClicked(this.id)">2</button>
+            <button id="3" onClick="buttonClicked(this.id)">3</button>
+    
+        </div>
+
+        <div class="container">
+    
+            <button id="AC" onClick="AC()">AC</button>
+            <button id="0" onClick="buttonClicked(this.id)">0</button>
+            <button id="." onClick="buttonClicked(this.id)">.</button>
+    
+        </div>
+
+    </div>
+   
+   <div id="bigContainerTwo">
+
+        <button id="/"  onClick="buttonClicked(this.id); operaterPresssed(this.id);">&divide;</button>
+        <button id="*"  onClick="buttonClicked(this.id); operaterPresssed(this.id);">&times;</button>
+        <button id="-"  onClick="buttonClicked(this.id); operaterPresssed(this.id);">&minus;</button>
+        <button id="+"  onClick="buttonClicked(this.id); operaterPresssed(this.id);">&plus;</button>
+        <button id="&equals;" class="=" onClick="equalPressed();" >&equals;</button>
+
+   </div>
+</div>
+  
+    
+   
+</body>
+</html>
